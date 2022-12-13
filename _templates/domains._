@@ -1,0 +1,7 @@
+<ul id="domains">
+<% _.each( domains, function(domain) { %>
+  <li class="domain">
+    <a href="#domains/<%= domain.id %>"><%= domain.hostname %></a>
+  </li>
+<% }); %>
+</ul>
